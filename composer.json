@@ -1,0 +1,20 @@
+{
+  "name": "alex-grau/pdf-image-extractor",
+  "description": "Extract images from PDFs using pdfimages.",
+  "authors": [
+    {
+      "name": "Alexandre Grau",
+      "email": "alexgr@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0",
+    "symfony/process": "^3.3|^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexGrau\\PdfImageExtractor\\": "src"
+    }
+  }
+}
